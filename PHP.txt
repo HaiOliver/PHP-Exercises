@@ -1,0 +1,17 @@
+
+
+Question 2:
+
+Select CONCAT(Employees.firstName,Employees.lastName) AS fullName, Addresses.address, Addresses.postalCode, Addresses.city, Provinces.province
+FROM Employees
+JOIN Addresses on Employees.employeeID = Addresses.employeeID
+JOIN Provinces on Addresses.provinceID = Provinces.provinceID
+
+
+Question 3:
+
+
+
+
+
+
